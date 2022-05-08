@@ -2,6 +2,6 @@ const express = require('express');
 const app = express();
 
 app.use(express.json());
-app.use('/', require('./route/postsRoute'));
+app.use('/', require('./router/gamesRoute'));
 
 app.listen(3000);
